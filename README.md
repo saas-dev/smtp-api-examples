@@ -1,4 +1,6 @@
-# SMTP API examples
+# SMTP Locaweb API examples
+
+Some code examples to use [SMTP Locaweb](http://www.locaweb.com.br/produtos/smtp-locaweb.html) API.
 
 ## PHP examples
 
@@ -10,6 +12,6 @@
 
   php/get\_message\_status.php
 
-## Docs
+## API Docs
 
 [Click here for API Docs](http://developer.locaweb.com.br/documentacoes/smtp/api-comousar)
