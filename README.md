@@ -14,4 +14,4 @@ Some code examples to use [SMTP Locaweb](http://www.locaweb.com.br/produtos/smtp
 
 ## API Docs
 
-[Click here for API Docs](http://developer.locaweb.com.br/documentacoes/smtp/api-comousar)
+[Click here for API Docs](http://developer.locaweb.com.br/documentacoes/smtp/api-como-utilizar)
