@@ -6,8 +6,15 @@ $api_url = 'https://api.smtplw.com.br/v1';
 
 $from = "sender@domain.com";
 $to = array("to@domain.com");
-$subject = "subject";
-$body = "any body";
+$subject = "teste api html";
+$body = <<<EOT
+    <p>
+      teste
+    </p>
+    <p>
+      teste 2 com <strong>bold</strong>
+    </p>
+EOT;
 
 $headers = array(
   "x-auth-token: $x_auth_token",
@@ -18,7 +25,8 @@ $data_string = array(
   'from'    => $from,
   'to'      => $to,
   'subject' => $subject,
-  'body'    => $body
+  'body'    => $body,
+  'headers' => array('Content-type' => 'text/html')
 );
 
 $ch = curl_init("$api_url/messages");

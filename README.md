@@ -4,9 +4,17 @@ Some code examples to use [SMTP Locaweb](http://www.locaweb.com.br/produtos/smtp
 
 ## PHP examples
 
-### To send messages
+### To send messages in format text/plain
 
-  php/sending\_message.php
+```
+php send_message_text.php
+```
+
+### To send messages in format html
+
+```
+php send_message_html.php
+```
 
 ### To get message status
 
